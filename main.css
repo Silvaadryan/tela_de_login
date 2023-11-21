@@ -58,9 +58,19 @@ p {
   color: #666666;
   margin: 0px;
 }
-
-
-
+.fechar{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -280px;
+  left: 500px;
+  border: solid 2px;
+  background-color: #ff0404;
+  width: 2%;
+  border-radius: 100%;
+  
+}
 
 /*---------------------------------------------*/
 input {
@@ -266,26 +276,25 @@ button:hover {
  }
 
 
- 
- .label-input1000:before {
+.label-input1000:before {
   size: 100%;
   font-family: FontAwesome;
-  content: " \f017";
+  content: " \f023";
   position: absolute;
   padding-top: 40px;
   font-size: 30px;
-  margin-bottom: px;
+  margin-bottom: 1/px;
   margin-top: -7px;
   margin-left: 6px;
   
- }
- 
- .label-input1000:before {
-  content: "\f1eb";
-  font-family: 'Font Awesome 5 Free';
- }
+}
 
- 
+.label-input1000:before {
+  content: "\f023";
+  font-family: 'Font Awesome 5 Free';
+}
+
+
 
 
 
@@ -362,14 +371,12 @@ button:hover {
   left: 0;
 }
 
-
 /*------------------------------------------------------------------
   [ Alert validate ]*/
 
 .validate-input {
   position: relative;
 }
-
 .alert-validate::before {
   content: attr(data-validate);
   position: absolute;
