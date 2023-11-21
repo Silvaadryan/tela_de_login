@@ -248,8 +248,44 @@ button:hover {
   transition: all 0.4s;
 }
 
+.label-input100:before {
+  size: 100%;
+  font-family: FontAwesome;
+  content: " \f017";
+  position: absolute;
+  padding-top: 70px;
+  font-size: 30px;
+  margin-top: -35px;
+  margin-right: 2px ;
+ }
+ 
+ .label-input100:before {
+  content: "\f007";
+  font-family: 'Font Awesome 5 Free';
+
+ }
 
 
+ 
+ .label-input1000:before {
+  size: 100%;
+  font-family: FontAwesome;
+  content: " \f017";
+  position: absolute;
+  padding-top: 40px;
+  font-size: 30px;
+  margin-bottom: px;
+  margin-top: -7px;
+  margin-left: 6px;
+  
+ }
+ 
+ .label-input1000:before {
+  content: "\f1eb";
+  font-family: 'Font Awesome 5 Free';
+ }
+
+ 
 
 
 
